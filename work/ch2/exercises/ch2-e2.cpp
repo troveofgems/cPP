@@ -8,6 +8,5 @@
 using namespace std;
 
 int main() {
-    cout << "Brett Wright\nHunter Jung" << endl << "Dooneese";
     return 0;
 }
