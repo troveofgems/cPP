@@ -1,14 +1,14 @@
 /* File Corresponds To Chapter 3 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
- *  Chapter Overview
- *
+ *  Practice Problem 3
+ *  Write a program that reads in two numbers and uses division to compute an EXACT result.
  * */
+
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main() {
-     double firstNumber, secondNumber;
+    double firstNumber, secondNumber;
 
     cout << "Please Provide Your First Number" << endl;
     cin >> firstNumber;
