@@ -1,5 +1,5 @@
 /* File Corresponds To Boiler Chapter 2 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
- *
+ * => The Basics Of C++
  * */
 
 #include <iostream> // PURPOSE: Imports iostream library

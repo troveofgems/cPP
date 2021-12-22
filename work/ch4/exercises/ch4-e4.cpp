@@ -1,7 +1,10 @@
 /* File Corresponds To Chapter 4 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
- *  Chapter Overview
- * => If Statements
+ *  Practice Problem 4
+ *  Write a program that expands the password checker written in example 1 to take multiple usernames and
+ *  passwords, then perform a check to see if they were correct. Provide the ability to prompt users again for the
+ *  correct password when an incorrect one is given. Think about the level of difficulty in implementing this.
  * */
+
 #include <iostream>
 #include <string>
 
@@ -26,7 +29,7 @@ int main() {
     if (
             (userEnteredUsername == "admin01" && userEnteredPassword == user_1_password) ||
             (userEnteredUsername == "user01" && userEnteredPassword == user_2_password)
-        ) {
+            ) {
         cout << "Password Confirmed. Welcome User" << endl;
     } else {
         ++pwdAttempts;
@@ -36,7 +39,7 @@ int main() {
             if (
                     (userEnteredUsername == "admin01" && userEnteredPassword == user_1_password) ||
                     (userEnteredUsername == "user01" && userEnteredPassword == user_2_password)
-                ) {
+                    ) {
                 cout << "Password Confirmed. Welcome User" << endl;
             } else {
                 ++pwdAttempts;
@@ -46,7 +49,7 @@ int main() {
                     if (
                             (userEnteredUsername == "admin01" && userEnteredPassword == user_1_password) ||
                             (userEnteredUsername == "user01" && userEnteredPassword == user_2_password)
-                        ) {
+                            ) {
                         cout << "Password Confirmed. Welcome User" << endl;
                     } else {
                         ++pwdAttempts;
@@ -56,7 +59,7 @@ int main() {
                             if (
                                     (userEnteredUsername == "admin01" && userEnteredPassword == user_1_password) ||
                                     (userEnteredUsername == "user01" && userEnteredPassword == user_2_password)
-                                ) {
+                                    ) {
                                 cout << "Password Confirmed. Welcome User" << endl;
                             }
                         } else {

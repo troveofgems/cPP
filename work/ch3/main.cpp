@@ -1,6 +1,6 @@
 /* File Corresponds To Chapter 3 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
  *  Chapter Overview
- *
+ *  => User Interactivity & Variables
  * */
 #include <iostream>
 #include <string>
