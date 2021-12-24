@@ -1,6 +1,6 @@
-/* File Corresponds To Chapter 6 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
+/* File Corresponds To Chapter 7 - Jumping Into C++ Alex Allain ISB:978-0-9889278-0-3
  *  Chapter Overview
- * => Functions
+ * => ENUM & Case
  * */
 #include <iostream>
 #include <string>
